@@ -12,6 +12,8 @@
   * [XMC1300 Boot Kit](https://github.com/Infineon/XMC-for-Arduino/wiki/XMC1300-Boot-Kit)
   * [XMC1300 Sense2GoL](https://github.com/Infineon/XMC-for-Arduino/wiki/XMC1300-Sense2GoL)
   * [XMC1400 Boot Kit](https://github.com/Infineon/XMC-for-Arduino/wiki/XMC1400-Boot-Kit)
+  * [XMC1400 Kit for Arduino](https://github.com/Infineon/XMC-for-Arduino/wiki/XMC1400-Kit-for-Arduino)
+  * [XMC4200 Platform2Go](https://github.com/Infineon/XMC-for-Arduino/wiki/XMC4200-Platform2Go)
   * [XMC4400 Platform2Go](https://github.com/Infineon/XMC-for-Arduino/wiki/XMC4400-Platform2Go)
   * [XMC4700 Relax Kit](https://github.com/Infineon/XMC-for-Arduino/wiki/XMC4700-Relax-Kit)
   * [DEMO Radar BB XMC4700](https://github.com/Infineon/XMC-for-Arduino/wiki/DEMO-Radar-BB-XMC4700)
