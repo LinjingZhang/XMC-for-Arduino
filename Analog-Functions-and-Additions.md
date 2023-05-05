@@ -13,6 +13,10 @@ These functions return the analogue resolution as its maximum value
 * uint16_t getAnalogReadMaximum( ) - range 255 to 4095
 * uint16_t getAnalogWriteMaximum( ) - range 255 to 65535
 
+This function enables the analog amplifiers at the ADC inputs with adjustible gain (for XMC1000 series)
+* uint32_t analogRead_variableGain( uint8_t channel, uint8_t gain_value ) \
+    The gain factor values can be found [here.](#analog-amplifiers-at-the-adc-inputs-with-adjustible-gain)
+
 ## Default Values
 Read resolution default is 10 bits (0 to 1023)
 
@@ -96,5 +100,32 @@ This function has NO operation and will not match any call on parameters passed 
 
 Any shields and examples that try to change this, will **NOT** function the same on these boards.
 
+## Analog amplifiers at the ADC inputs with adjustible gain
+Each analog input channel can be configured to be amplified by an adjustable gain factor, for XMC1000 series. To configure the gain, the `gain value` is to be selected in the `analogRead_variableGain()` function which translates to a `gain factor` as per the following table:
+
+<table align=centre border=0>
+ <tr>
+  <td><b>Gain value</b></td>
+  <td><b>Gain factor</b></td>
+ </tr>
+ <tr>
+ <td>0</td>
+ <td>1</td>
+ </tr>
+ <tr>
+ <td>1</td>
+ <td>3</td>
+ </tr>
+ <tr>
+ <td>2</td>
+ <td>6</td>
+ </tr>
+ <tr>
+ <td>3</td>
+ <td>12</td>
+ </tr>
+ </table>
+
+ For more information, please refer to the application note [here.](https://www.infineon.com/dgdl/Infineon-VADC-XMC1200_XMC1300-AP32304-AN-v01_10-EN.pdf?fileId=5546d4624e765da5014ed981f63136d6)
 
 [Home](https://github.com/Infineon/XMC-for-Arduino/wiki)
