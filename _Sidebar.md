@@ -21,4 +21,5 @@
     * [Functions and Options Differences](https://github.com/Infineon/XMC-for-Arduino/wiki/Functions-and-Options-Differences "Known differences between Arduino for AVR and XMC-for-Arduino")
     * [Analog Functions and improvements](https://github.com/Infineon/XMC-for-Arduino/wiki/Analog-Functions-and-Additions "Extra analog functonality over Arduino for AVR and XMC-for-Arduino")
     * [I2C and Analog pins](https://github.com/Infineon/XMC-for-Arduino/wiki/I2C-Analog-pins "I2C and analogue pin differences Arduino for AVR and XMC-for-Arduino")
+    * [Serial Output Selection](https://github.com/Infineon/XMC-for-Arduino/wiki/Serial-selection)
 * [Contributing and Third Party Libraries](https://github.com/Infineon/XMC-for-Arduino/wiki/Contributing-and-Third-Party-Libraries)
