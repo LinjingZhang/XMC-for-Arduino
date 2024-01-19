@@ -52,3 +52,25 @@ In the boards list **Tools** > **Board**, you will now find the supported XMC mi
 
 * **The differences of the boards included in this repository if compared to the Arduino boards**
 * **Refer also to the LICENSE.md/txt file of the repositories for further information**
+* **The Boot Kits have limitations if compared to the official Arduino boards (consult the [XMC-for-Arduino Wiki](https://github.com/Infineon/XMC-for-Arduino/wiki) for more information)**
+* **XMC-for-Arduino support for 'arm-linux-gnueabihf' only until version 1.1.**
+
+
+### Release packages from version 3.0.0 onwards
+
+Certain obsolete boards (see wiki) and non-functional libraries were removed from the board support package for the release version 2.0.0, alongwith some other major changes (see release notes). After version 3.0.0, the release index will not include library before version 2.0.0.
+
+![Board Manager](image/Support_v2.png)
+### Known Issues
+
+* :warning: While using the pins connected to the **LEDs** configured as **INPUT**, there might be some abberation in behavior due to the presence of the series resistor of the LED, as it causes a voltage drop on the pin. In case of such an occurance, it is advised to desolder the series resistor and the LED and thereby using the pin as INPUT.  
+
+### Using PlatformIO IDE
+
+- [What is PlatformIO?](http://docs.platformio.org/en/latest/what-is-platformio.html?utm_source=github&utm_medium=xmc-for-arduino)
+- [PlatformIO IDE](http://platformio.org/platformio-ide?utm_source=github&utm_medium=xmc-for-arduino)
+- [PlatformIO Core (CLI)](http://docs.platformio.org/en/latest/core.html?utm_source=github&utm_medium=xmc-for-arduino) (command line tool)
+- [Integration with Cloud and Desktop IDEs](http://docs.platformio.org/en/latest/ide.html?utm_source=github&utm_medium=xmc-for-arduino) -
+  Cloud9, Codeanywhere, Eclipse Che (Codenvy), Atom, CLion, Eclipse, Emacs, NetBeans, Qt Creator, Sublime Text, VIM, Visual Studio, and VSCode
+- [Project Examples](https://github.com/Infineon/platformio-infineonxmc/tree/master/examples)
+
