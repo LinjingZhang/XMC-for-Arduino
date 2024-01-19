@@ -1,1 +1,1 @@
-More information will follow.
+Deprecated

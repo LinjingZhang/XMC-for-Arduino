@@ -46,7 +46,7 @@ To install the boards, please go now to **Tools** > **Board** > **Boards Manager
 
 In the boards list **Tools** > **Board**, you will now find the supported XMC microcontroller boards. 
 
-![Board List](https://raw.githubusercontent.com/infineon/assets/master/Pictures/Board_List.png)
+![Board List](image/Boards_Manager_Entry.png)
 
 ### Notes
 

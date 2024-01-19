@@ -21,7 +21,6 @@ The remaining boards are supported until release **version 1.7.0** (deprecated).
   - RTC library
   - DMA library (beta, in development)
   - Device Control Library
-* Special variants and boards implemented, e.g. [XMC1300 Sense2GoL](XMC1100-2Go) or [XMC1100 H-Bridge 2Go](XMC1100-H-Bridge-2Go)
 
 ## The XMC Microcontroller Family
 Infineon has designed the XMC microcontrollers for real-time critical applications with an industry-standard core. The microcontroller family based on ARM® Cortex®-M cores is dedicated to applications in the segments of power conversion, factory and building automation, transportation and home appliances. 
