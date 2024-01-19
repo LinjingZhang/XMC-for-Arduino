@@ -13,7 +13,7 @@ If you have already installed '[DAVE™ - Development Platform for XMC™ Microc
 
 ### Integration in Arduino IDE
 
-![Preferences](https://raw.githubusercontent.com/infineon/assets/master/Pictures/Preferences.png)
+![Preferences](image/preference.png)
 
 Paste the following URL into the 'Additional Boards Manager URLs' input field under **File** > **Preferences** to add Infineon's microcontroller boards to the Arduino IDE.
 

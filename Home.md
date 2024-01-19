@@ -1,17 +1,18 @@
 # Welcome
-Welcome to the XMC-for-Arduino wiki! You'll find information about the boards ([XMC1100 XMC2Go](https://github.com/Infineon/XMC-for-Arduino/wiki/XMC-2Go), [XMC1100 H-Bridge 2Go](https://github.com/Infineon/XMC-for-Arduino/wiki/XMC1100-H%E2%80%90Bridge-2Go), [XMC1100 Boot Kit](https://github.com/Infineon/XMC-for-Arduino/wiki/XMC1100-Boot-Kit), [XMC1300 Boot Kit](https://github.com/Infineon/XMC-for-Arduino/wiki/XMC1300-Boot-Kit), [XMC1300 Sense2GoL](https://github.com/Infineon/XMC-for-Arduino/wiki/XMC1300-Sense2GoL), [XMC4400 Platform2Go](https://github.com/Infineon/XMC-for-Arduino/wiki/XMC4400-Platform2Go),  [XMC4700 Relax Kit](https://github.com/Infineon/XMC-for-Arduino/wiki/XMC4700-Relax-Kit), and [DEMO Radar BB XMC4700](https://github.com/Infineon/XMC-for-Arduino/wiki/DEMO-Radar-BB-XMC4700)) as well as additional information. 
+Welcome to the XMC-for-Arduino wiki! You'll find information about the boards ([XMC1100 2Go](XMC1100-2Go), [XMC1100 H-Bridge 2Go](XMC1100-H-Bridge-2Go), [XMC1100 Boot Kit](XMC1100-Boot-Kit), [XMC1400 2Go](XMC1400-2Go), [XMC1400 Kit for Arduino](Board/XMC1400-Kit-for-Arduino), [XMC1300 Boot Kit](XMC1300-Boot-Kit), [XMC1300 Sense2GoL](XMC1300-Sense2GoL.md), [XMC4400 Platform2Go](XMC4400-Platform2Go.md),  [XMC4700 Relax Kit](XMC4700-Relax-Kit.md), and [DEMO Radar BB XMC4700](DEMO-Radar-BB-XMC4700.md) as well as additional information. 
 Please have a look on the sidebar to find the related information and visit our site for makers [here](www.infineon.com/4makers) with additional information about other boards.
 
 Please note that from release **version 2.0.0** onwards, only the following boards are supported:
 
-* [XMC1100 XMC 2Go](https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc_2go_xmc1100_v1/)
+* [XMC1100 2Go](https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc_2go_xmc1100_v1/)
 * [XMC1100 Boot Kit](https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc11_boot_001/)
+* [XMC1400 2Go (placeholder)]()
 * [XMC1400 Kit for Arduino](https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc1400_arduino/)
 * [XMC4200 Platform 2Go](https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc_plt2go_xmc4200/)
 * [XMC4400 Platform 2Go](https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc_plt2go_xmc4400//)
 * [XMC4700 Relax Kit](https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc47_relax_v1/)
 
-The remaining boards are supported until release **version 1.7.0**.
+The remaining boards are supported until release **version 1.7.0** (deprecated).
 
 
 ## Current Status
@@ -20,7 +21,7 @@ The remaining boards are supported until release **version 1.7.0**.
   - RTC library
   - DMA library (beta, in development)
   - Device Control Library
-* Special variants and boards implemented, e.g. [XMC1300 Sense2GoL](https://github.com/Infineon/XMC-for-Arduino/wiki/XMC1300-Sense2GoL) or [XMC1100 H-Bridge 2Go](https://github.com/Infineon/XMC-for-Arduino/wiki/XMC1100-H%E2%80%90Bridge-2Go)
+* Special variants and boards implemented, e.g. [XMC1300 Sense2GoL](XMC1100-2Go) or [XMC1100 H-Bridge 2Go](XMC1100-H-Bridge-2Go)
 
 ## The XMC Microcontroller Family
 Infineon has designed the XMC microcontrollers for real-time critical applications with an industry-standard core. The microcontroller family based on ARM® Cortex®-M cores is dedicated to applications in the segments of power conversion, factory and building automation, transportation and home appliances. 
