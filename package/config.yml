@@ -14,5 +14,5 @@ include:
 index-name: package_xmc_index
 server: 
   type: github
-  owner: Infineon
+  owner: LinjingZhang
   repo: XMC-for-Arduino
