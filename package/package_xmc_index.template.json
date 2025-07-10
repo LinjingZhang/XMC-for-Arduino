@@ -7,7 +7,7 @@
             "email": "maker@infineon.com",
             "platforms": [
                 {
-                    "name": "Infineon XMC Boards",
+                    "name": "Infineon XMC™ Boards",
                     "architecture": "xmc",
                     "version": "",
                     "category": "Contributed",
